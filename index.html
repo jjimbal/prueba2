@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Agency Page Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<style>
+		#d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9, #d10, #d11, #d12, #d13, #d14, #d15, #d16, #d17, #d18, #d19, #d20, #21, #22, #23, #24, #25, #26, #27, #28, #29, #30, #31, #32, #33, #34, #35, #36, #37, #38, #39, #40 {
+
+		}
+		.alto {min-height: 60px;}
+		.alto2 {height: 400px;}
+		.pregunta div {
+			float: left;
+		}
+		.test {
+			display: flex;
+            align-items: center;
+			width: auto;
+			min-width: 200px;
+			height: 20px;
+			float: left;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 4px;
+			padding-left: 20px;
+			padding-bottom: 4px;
+			color: white;
+			border-radius: 4px;
+			border: thin solid #373737;
+		}
+		.reset {
+			clear:both;
+		}
+		.airetop {margin-top: 80px;}
+		.aut {
+			display: flex;
+			align-items: center;
+			width: auto;
+			height: auto;
+		}
+		.opcion {
+			background-color: dimgrey;
+			color: white;
+			border-radius: 4px;
+			padding: 0px 2px;
+		}
+		.bloquea {
+			   -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+		}
+	</style>
+  <link rel="manifest" href="./manifest.json">
+  <script type="text/javascript">
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+</script>	  
+  </head>
+  <body class="bloquea">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> 
+            </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+        </ul>
+        <!--form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form-->
+      </div>
+    </nav>
+    <header>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center">Entrenamiento examenes</h1>
+              <p class="text-center">Respasa y entrena la teoría para los diferentes grados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+	  <section>
+	   <div class="container-fluid bg-warning text-center py-3 shadow-lg">
+		   <h2 class="text-white">CINTURÓN AMARILLO</h2>
+		  </div>
+	  </section>
+	  <section>
+	  <div class="container my-5">
+		  <div class="pregunta">
+		    <p><strong>¿Qué es el KARATE-DO?</strong></p>
+			  <div>Es un arte marcial con</div><div id="d1" class="test" ondrop="drop(event, 1)" ondragover="allowDrop(event)"></div><div>, de peculiares técnicas de pies y </div><div id="d2"  class="test" ondrop="drop(event, 2)" ondragover="allowDrop(event)"></div><div>. Se desarrolló en </div><div id="d3" class="test" ondrop="drop(event, 3)" ondragover="allowDrop(event)"></div><div> y posteriormente pasó a la Isla </div><div id="d4" class="test" ondrop="drop(event, 4)" ondragover="allowDrop(event)"></div><div> transmitiendose en secreto hasta la época actual.</div>  
+		  </div>
+	    <div class="reset airetop"><p><strong>Opciones</strong>:</p></div>
+		  <div class="text-center">
+			  <div class="col-4 border float-left"><span id="r1" draggable="true" ondragstart="drag(event, 9999)" class="opcion">el puño</span></div>
+			  <div class="col-4 border float-left"><span id="r2" draggable="true" ondragstart="drag(event, 2)" class="opcion">puños</span></div>
+			  <div class="col-4 border float-left"><span id="r3" draggable="true" ondragstart="drag(event, 1)" class="opcion">la mano vacía</span></div>
+			  <div class="col-4 border float-left"><span id="r4" draggable="true" ondragstart="drag(event, 9999)" class="opcion">Japón</span></div>
+			  <div class="col-4 border float-left"><span id="r5" draggable="true" ondragstart="drag(event, 3)" class="opcion">China</span></div>
+			  <div class="col-4 border float-left"><span id="r6" draggable="true" ondragstart="drag(event, 4)" class="opcion">Okinawa</span></div>
+			  
+		     
+		  </div>
+	  </div>	  
+		  <hr>
+	  <div class="container">
+		  <p><strong>¿Qué alturas hay? (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-1">
+			  <div class="col-6 border rounded m-2 p-2 alto" ><p id="r7" draggable="true" ondragstart="drag(event, 7)" class="opcion">Media</p></div> 
+			  <div class="col-6 border rounded m-2 p-2 alto"><p id="r8" draggable="true" ondragstart="drag(event, 6)" class="opcion">Alta</p></div> 
+			  <div  class="col-6 border rounded m-2 p-2 alto" ><p id="r9" draggable="true" ondragstart="drag(event, 5)" class="opcion">Baja</p></div> 
+		  </div>
+		    <div class="col-5 rounded p-2 m-1">
+			  <div id="d6" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 6)" ondragover="allowDrop(event)"><p>JODAN</p></div> 
+			  <div id="d7" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 7)" ondragover="allowDrop(event)">CHUDAN</div> 
+			  <div id="d5" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 5)" ondragover="allowDrop(event)"><p>GEDAN</p></div> 
+			</div>
+		  </div>
+	  </div>
+          <hr>
+	  <div class="container">
+		  <p><strong>Tres posiciones Dachi (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-4 border rounded m-2 p-2 alto"><p id="r10" draggable="true" ondragstart="drag(event, 8)" class="opcion">Zemkutsu-Dachi</p></div> 
+			  <div class="col-4 border rounded m-2 p-2 alto"><p id="r11" draggable="true" ondragstart="drag(event, 9)" class="opcion">Shiko-Dachi</p></div> 
+			  <div  class="col-4 border rounded m-2 p-2 alto" ><p id="r12" draggable="true" ondragstart="drag(event, 10)" class="opcion">Heiko-Dachi</p></div> 
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d10" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 10)" ondragover="allowDrop(event)"><img src="images/dachi-3.jpg" height="92" alt="opción 1"/></div> 
+			  <div id="d9" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 9)" ondragover="allowDrop(event)"><img src="images/dachi-2.jpg" height="92" alt="opción 2"/></div> 
+			  <div id="d8" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 8)" ondragover="allowDrop(event)"><p><img src="images/dachi-1.jpg" height="92" alt="opción 3"/></p></div> 
+			</div>
+		  </div>
+	  </div>
+          <hr>
+	  	  <div class="container">
+		  <p><strong>Técnicas 'WAZA' (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r13" draggable="true" ondragstart="drag(event, 11)" class="opcion">Ataque de puño directo, con el puño de la pierna que avanza</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r14" draggable="true" ondragstart="drag(event, 12)" class="opcion">Ataque de puño directo, con el puño de la pierna atrasada</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r15" draggable="true" ondragstart="drag(event, 13)" class="opcion">Ataque con el revés del puño. (Golpe de látigo)</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r16" draggable="true" ondragstart="drag(event, 14)" class="opcion">Ataque de pierna frontal con la pierna delantera, golpeando con <span title="Golpe">Koshi</span>.</p></div> 	
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d13" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 13)" ondragover="allowDrop(event)">URAKEN-UCHI</div> 
+			  <div id="d12" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 12)" ondragover="allowDrop(event)">GYAKU-TSUKI</div> 
+			  <div id="d14" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 14)" ondragover="allowDrop(event)">MAE-GERI</div>	
+			  <div id="d11" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 11)" ondragover="allowDrop(event)"><p>OI-TSUKI</p></div> 
+			</div>
+		  </div>
+	  </div>  
+		  <hr>
+	  	  <div class="container">
+		  <p><strong>¿Qué es?' (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r17" draggable="true" ondragstart="drag(event, 15)" class="opcion">Técnicas de ataque con puño o mano con trayectoria directa</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r18" draggable="true" ondragstart="drag(event, 16)" class="opcion">Técnicas de ataque con puño, mano y codo con trayectoria circular</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r19" draggable="true" ondragstart="drag(event, 17)" class="opcion">Técnicas de ataque de pie o rodilla</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r20" draggable="true" ondragstart="drag(event, 18)" class="opcion">Técnicas de defensa <span title="Golpe">Koshi</span>.</p></div> 	
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d15" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 15)" ondragover="allowDrop(event)"><p>TSUKI-WAZA</p></div>	  
+			  <div id="d17" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 17)" ondragover="allowDrop(event)">GUERI-WAZA</div> 
+			  <div id="d18" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 18)" ondragover="allowDrop(event)">UKE-WAZA</div>
+				<div id="d16" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 16)" ondragover="allowDrop(event)">UCHI-WAZA</div> 	
+			</div>
+		  </div>
+	  </div>  		  
+	  </section>
+	  <section>
+	   <div class="container-fluid bg-danger text-center py-3 shadow-lg">
+		   <h2 class="text-white">CINTURÓN NARANJA</h2>
+		  </div>
+		  <div class="container mt-4">
+		  <p><strong>¿Qué es?' (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r25" draggable="true" ondragstart="drag(event, 19)" class="opcion">Recogida del puño o manno en el momento de efectuar una técnica con el brazo contrario</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r21" draggable="true" ondragstart="drag(event, 20)" class="opcion">Puño o mano que ejecuta la acción</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r22" draggable="true" ondragstart="drag(event, 21)" class="opcion">Concentración física y psíquica en el momento del impacto</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r23" draggable="true" ondragstart="drag(event, 22)" class="opcion">Es la energía alojada en el bajo vientre (TAMDEM)</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r24" draggable="true" ondragstart="drag(event, 23)" class="opcion">El grito que efectuamos en el momento de la expulsión de la energía interna (KI)</p></div> 	
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d21" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 21)" ondragover="allowDrop(event)">KIME</div>
+			  <div id="d23" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 23)" ondragover="allowDrop(event)">KIAI</div>
+			  <div id="d20" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 20)" ondragover="allowDrop(event)">TSUKITE</div> 
+			  <div id="d19" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 19)" ondragover="allowDrop(event)"><p>HIKITE</p></div>	 
+			  <div id="d22" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 22)" ondragover="allowDrop(event)">KI</div>
+		      
+			</div>
+		  </div>
+	  </div> 
+		   <hr>
+	  <div class="container">
+		  <p><strong>Cuatro posiciones Dachi (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-4 border rounded m-2 p-2 alto"><p id="r26" draggable="true" ondragstart="drag(event, 24)" class="opcion">Heisoku-Dachi</p></div> 
+			  <div class="col-4 border rounded m-2 p-2 alto"><p id="r27" draggable="true" ondragstart="drag(event, 25)" class="opcion">Motsubi-Dachi</p></div> 
+			  <div  class="col-4 border rounded m-2 p-2 alto" ><p id="r28" draggable="true" ondragstart="drag(event, 26)" class="opcion">Hachiji-Dachi</p></div> 
+			  <div  class="col-4 border rounded m-2 p-2 alto" ><p id="r29" draggable="true" ondragstart="drag(event, 27)" class="opcion">Uchi-Hachiji-Dachi</p></div>	
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d24" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 24)" ondragover="allowDrop(event)"><img src="images/dachi-4.jpg" height="92" alt="opción 1"/></div> 
+			  <div id="d26" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 26)" ondragover="allowDrop(event)"><img src="images/dachi-6.jpg"  height="92" alt="opción 3"/></div> 
+			  <div id="d27" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 27)" ondragover="allowDrop(event)"><img src="images/dachi-7.jpg"  height="92" alt="opción 4"/></div>	
+			  <div id="d25" class="col-10 border rounded m-2 p-2" ondrop="drop(event, 25)" ondragover="allowDrop(event)"><img src="images/dachi-5.jpg" height="92" alt="opción 2"/></div> 
+			</div>
+		  </div>
+	  </div>
+		   <hr>
+	  	  <div class="container">
+		  <p><strong>Técnicas 'WAZA' (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r30" draggable="true" ondragstart="drag(event, 28)" class="opcion">Ataque de puño directo, con la pierna adelantada.</p></div> 		
+			  
+			  <div class="col-8 border rounded m-2 p-2"><p id="r31" draggable="true" ondragstart="drag(event, 30)" class="opcion">Golpe de puño indirecto pivotando sobre el codo, golpeando con la base del puño ('Golpe de martillo').</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r32" draggable="true" ondragstart="drag(event, 31)" class="opcion">Golpe con el canto exterior de la mano (Sable de mano).</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r33" draggable="true" ondragstart="drag(event, 35)" class="opcion">Técnica de defensa ascendente con el antebrazo.</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r34" draggable="true" ondragstart="drag(event, 32)" class="opcion">Técnica de ataque frontal con el pie de la pierna atrasada (KOSHI).</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r35" draggable="true" ondragstart="drag(event, 33)" class="opcion">Técnica de ataque lateral con el canto del pie (SOKUTO).</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r36" draggable="true" ondragstart="drag(event, 34)" class="opcion">Técnica de defensa con el antebrazo realizada de arriba abajo.</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r37" draggable="true" ondragstart="drag(event, 29)" class="opcion">Ataque de puño directo, con el puño de la pierna adelantada que se propina colocando el busto de perfil medianta una fuerte rotación de caderas (Shoto-Kan).</p></div>   
+			  <div class="col-8 border rounded m-2 p-2"><p id="r38" draggable="true" ondragstart="drag(event, 36)" class="opcion">Técnica de defensa con la parte UDE del antebrazo.</p></div> 	
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d28" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 28)" ondragover="allowDrop(event)">MAE-TSUKI</div> 
+			  <div id="d29" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 29)" ondragover="allowDrop(event)">KIZAMI-TSUKI</div> 
+			  <div id="d30" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 30)" ondragover="allowDrop(event)">TETSUI-UCHI</div> 
+			  <div id="d31" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 31)" ondragover="allowDrop(event)">SHUTO-UCHI</div>	
+			  <div id="d32" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 32)" ondragover="allowDrop(event)"><p>OI-GUERI</p></div> 
+				<div id="d33" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 33)" ondragover="allowDrop(event)"><p>SOKUTO-GUERI ó YOKO-GUERI</p></div> 
+				<div id="d34" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 34)" ondragover="allowDrop(event)"><p>OTOSHI-UKE</p></div> 
+				<div id="d35" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 35)" ondragover="allowDrop(event)"><p>JODAN-UKE</p></div> 
+				<div id="d36" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 36)" ondragover="allowDrop(event)"><p>UDE-UKE</p></div> 
+			</div>
+		  </div>
+	  </div>  
+		  <hr>
+	  	  <div class="container">
+		  <p><strong>Formas de golpear en las técnicas de GERI-WAZA (Relaciona)</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r39" draggable="true" ondragstart="drag(event, 37)" class="opcion">Ascendente</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r40" draggable="true" ondragstart="drag(event, 38)" class="opcion">Penetrante</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r41" draggable="true" ondragstart="drag(event, 39)" class="opcion">Percutente</p></div>	
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d38" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 38)" ondragover="allowDrop(event)">KEKOMI</div> 
+			  <div id="d37" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 37)" ondragover="allowDrop(event)"><p>KEAGE</p></div>	  
+			  <div id="d39" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 39)" ondragover="allowDrop(event)">KEBANASHI</div>
+			</div>
+		  </div>
+	  </div>
+	  </section>
+      <section>
+	   <div class="container-fluid bg-success text-center py-3 shadow-lg">
+		   <h2 class="text-white">CINTURÓN VERDE</h2>
+		  </div>
+		  <div class="container">
+		  <p class="mt-5"><strong>Relaciona escuelas y estilos</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r42" draggable="true" ondragstart="drag(event, 40)" class="opcion">GENSEI RYU</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r43" draggable="true" ondragstart="drag(event, 41)" class="opcion">GOJU RYU</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r44" draggable="true" ondragstart="drag(event, 40)" class="opcion">KIOKUSHIN KAY</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r45" draggable="true" ondragstart="drag(event, 43)" class="opcion">SHITO RYU</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r46" draggable="true" ondragstart="drag(event, 40)" class="opcion">SHOTOKAI</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r47" draggable="true" ondragstart="drag(event, 40)" class="opcion">SHOTOKAN</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r48" draggable="true" ondragstart="drag(event, 40)" class="opcion">WADO RIU</p></div> 
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d41" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 41)" ondragover="allowDrop(event)">NAHATE</div>	
+			  <div id="d40" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 40)" ondragover="allowDrop(event)">SHURITE</div>
+			  <div id="d43" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 43)" ondragover="allowDrop(event)">NAHATE, SHURITE y TOMARITE</div>
+			</div>
+		  </div>
+	  </div> 
+		 <hr>
+		  <div class="container">
+		  <p class="mt-5"><strong>Relaciona fundador y escuela</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r49" draggable="true" ondragstart="drag(event, 44)" class="opcion">GENSEI RYU</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r50" draggable="true" ondragstart="drag(event, 45)" class="opcion">GOJU RYU</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r51" draggable="true" ondragstart="drag(event, 46)" class="opcion">KIOKUSHIN KAY</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r52" draggable="true" ondragstart="drag(event, 47)" class="opcion">SHITO RYU</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r53" draggable="true" ondragstart="drag(event, 48)" class="opcion">SHOTOKAI</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r54" draggable="true" ondragstart="drag(event, 49)" class="opcion">SHOTOKAN</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r55" draggable="true" ondragstart="drag(event, 50)" class="opcion">WADO RIU</p></div> 
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d47" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 47)" ondragover="allowDrop(event)">KENWA MABUNI</div>	
+			  <div id="d45" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 45)" ondragover="allowDrop(event)">CHOJUN MIYAGI</div>
+			  <div id="d46" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 46)" ondragover="allowDrop(event)">SOSAI MATSUTATSU</div>
+			  <div id="d50" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 50)" ondragover="allowDrop(event)">HIRONORI OTSUKA</div>	
+			 <div id="d44" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 44)" ondragover="allowDrop(event)">SEIKEN SHUKUMIDE</div>	
+			  <div id="d49" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 49)" ondragover="allowDrop(event)">FUNAKOSHI</div>	
+				<div id="d48" class="col-10 border rounded m-4 p-2" ondrop="drop(event, 48)" ondragover="allowDrop(event)">SHIGERU EGAMI</div>
+			  
+			</div>
+		  </div>
+	  </div>    
+		  <hr>
+	  	  <div class="container">
+		  <p><strong>Relaciona</strong></p>
+	    <div class="row text-center">
+			<div class="col-5 rounded p-2 m-4">
+			  <div class="col-8 border rounded m-2 p-2"><p id="r56" draggable="true" ondragstart="drag(event, 51)" class="opcion">Nudo del cinturón.</p></div> 		  
+			  <div class="col-8 border rounded m-2 p-2"><p id="r57" draggable="true" ondragstart="drag(event, 52)" class="opcion">Vestimenta o kimono de KARATE.</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r58" draggable="true" ondragstart="drag(event, 53)" class="opcion">Chaqueta del kimono.</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r59" draggable="true" ondragstart="drag(event, 54)" class="opcion">La mirada.</p></div> 	
+			  <div class="col-8 border rounded m-2 p-2"><p id="r60" draggable="true" ondragstart="drag(event, 55)" class="opcion">Forma de desplazamiento de los pies.</p></div> 
+			  <div class="col-8 border rounded m-2 p-2"><p id="r61" draggable="true" ondragstart="drag(event, 56)" class="opcion">Retroceso de la pierna tras un GERI WAZA.</p></div> 	
+		  </div>
+		    <div class="col-5 rounded p-2 m-4">
+			  <div id="d53" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 53)" ondragover="allowDrop(event)">GI</div> 	 
+			  <div id="d54" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 54)" ondragover="allowDrop(event)">CHAKUGAN</div>
+		      <div id="d51" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 51)" ondragover="allowDrop(event)">OBI</div>	
+			  <div id="d55" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 55)" ondragover="allowDrop(event)"><p>UNZOKU</p></div> 
+			  <div id="d56" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 56)" ondragover="allowDrop(event)"><p>HIKIASHI</p></div>
+			  <div id="d52" class="col-10 border rounded m-2 p-4" ondrop="drop(event, 52)" ondragover="allowDrop(event)">KARATE GI</div>  
+			</div>
+		  </div>
+	  </div>  
+	  </section>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © Yo. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.4.1.js"></script>
+	  
+	<script>
+
+      var opcion = 0;
+
+      function allowDrop(ev) {
+        ev.preventDefault();
+      }
+
+      function drag(ev, n) {
+        ev.dataTransfer.setData("text", ev.target.id);
+        opcion = n;	
+      }
+
+      function drop(ev, n) {
+          ev.preventDefault();
+          if(n == opcion){
+              var data = ev.dataTransfer.getData("text");
+              ev.target.appendChild(document.getElementById(data));
+              document.getElementById("d"+n).style.backgroundColor = "green";
+          }
+         opcion = 0; // reseteo valor del drag
+      }
+   </script>  
+
+  </body>
+</html>
